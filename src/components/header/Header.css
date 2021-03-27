@@ -1,0 +1,16 @@
+.header {
+  background-color: white;
+  padding: 18px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 87%;
+  height: 50px;
+}
+
+.header-sub {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

@@ -1,0 +1,139 @@
+.container {
+  padding: 50px;
+  width: 100%;
+  height: 100%;
+  background-color: #e5e5e5;
+  margin-left: 120px;
+  margin-top: 150px;
+}
+.hp-heading {
+  font-family: Raleway;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 0 30px;
+}
+
+.view-module-text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #0096ff;
+  float: right;
+  position: absolute;
+  right: 510px;
+  cursor: pointer;
+}
+
+.card-1 {
+  background: #ffffff;
+  border: 1px solid rgba(0, 168, 255, 0.4);
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.card-1-title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.username-text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0096ff;
+}
+
+.button-blue {
+  width: 169px;
+  height: 28px;
+  left: 520px;
+  top: 247px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: white;
+  background: linear-gradient(272.62deg, #0048ff 4.06%, #0096ff 96.56%);
+  border-radius: 50px;
+  margin: 2% 0;
+}
+
+.card-2 {
+  width: 28%;
+  background: #ffffff;
+  border: 1px solid rgba(0, 168, 255, 0.4);
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-right: 30px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.module-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  padding: 20px;
+  gap: 15px;
+}
+
+.main {
+  margin-left: 120px;
+  margin-top: 170px;
+  width: 100%;
+}
+.modules-container {
+  background: rgba(205, 214, 229, 0.5);
+  width: 30%;
+  height: 100vh;
+}
+
+.info {
+  padding: 50px 80px;
+  width: 100%;
+  background-color: #f2f6ff;
+}
+
+.info-heading {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.instructors-container {
+  background: rgba(205, 214, 229, 0.5);
+  width: 30%;
+  height: 200vh;
+}
+.info-container {
+  background: #ffffff;
+  border: 1px solid rgba(0, 168, 255, 0.4);
+  box-sizing: border-box;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.instructors-info {
+  background: rgba(196, 196, 196, 0.2);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  margin: 50px 0;
+}
